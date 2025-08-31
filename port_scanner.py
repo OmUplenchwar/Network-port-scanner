@@ -1,6 +1,6 @@
 import socket
 
-# For colored output
+
 try:
     from colorama import init, Fore
     init()
@@ -26,3 +26,4 @@ for port in range(start_port, end_port + 1):
     sock.close()
 
 print("\nScanning completed!")
+
